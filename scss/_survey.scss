@@ -1,0 +1,54 @@
+.survey{
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+    }
+    .title{
+        @include font(600, 30px, 40px);
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        height: 100vh;
+        text-align: center;
+        text-transform: uppercase;
+        gap: 20px;
+
+    }
+    &__item{
+        &-link{
+            display: inline-block;
+            text-decoration: none;
+            padding: 12px 10px;
+            background-color: #ff5e1e;
+            @include font(600, 20px, 25px);
+            border-radius: 20px;
+            width: 250px;
+            color: #fff;
+            flex-direction: column;
+            border: 2px solid transparent;
+            &:hover{
+                color: #ff5e1e;
+                background-color: #fff;
+                border: 2px solid #ff5e1e;
+            }
+        }
+    }
+    @media screen and (max-width: 760px){
+        #myVideo {
+            position: fixed;
+            right: -480px;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+    }
+}
