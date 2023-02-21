@@ -3,11 +3,13 @@
     background-color: black;
     text-align: center;
     &__description{
+        padding: 15px;
         background-color: #ff5e1e;
         color: #fff;
         max-width:300px;
         text-align: center;
         @include font(500, 20px, 24px);
+        border-radius: 20px;
     }
     &__photo{
         display: flex;
@@ -18,8 +20,8 @@
         }
     }
     &__title{
-        color: #ff5e1e;
-        @include font(600, 40px, 64px);
+        color: #fff;
+        @include font(600, 40px, 65px);
     }
     &__name{
         color: #ff5e1e;
