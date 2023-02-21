@@ -1,0 +1,28 @@
+.person{
+    padding: 40px 50px 50px 50px;
+    background-color: black;
+    text-align: center;
+    &__description{
+        background-color: #ff5e1e;
+        color: #fff;
+        max-width:300px;
+        text-align: center;
+        @include font(500, 20px, 24px);
+    }
+    &__photo{
+        display: flex;
+        justify-content: center;
+        &-img{
+            width: 400px;
+            height: 300px;
+        }
+    }
+    &__title{
+        color: #ff5e1e;
+        @include font(600, 40px, 64px);
+    }
+    &__name{
+        color: #ff5e1e;
+        @include font(600, 50px, 54px);
+    }
+}

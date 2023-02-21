@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
 * {
+  font-family: "Didact Gothic", sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -23,7 +25,7 @@
   font-size: 30px;
   line-height: 40px;
   margin-bottom: 20px;
-  color: #ffffff;
+  color: #ff5e1e;
 }
 .survey .box {
   display: flex;
@@ -63,4 +65,42 @@
     min-height: 100%;
     z-index: -1;
   }
+}
+
+.person {
+  padding: 40px 50px 50px 50px;
+  background-color: black;
+  text-align: center;
+}
+.person__description {
+  background-color: #ff5e1e;
+  color: #fff;
+  max-width: 300px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.person__photo {
+  display: flex;
+  justify-content: center;
+}
+.person__photo-img {
+  width: 400px;
+  height: 300px;
+}
+.person__title {
+  color: #ff5e1e;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 64px;
+}
+.person__name {
+  color: #ff5e1e;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 54px;
 }/*# sourceMappingURL=style.css.map */
