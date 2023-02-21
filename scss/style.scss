@@ -9,6 +9,9 @@
    max-width: 320px;
    height: 100vh;
 }
+header,footer{
+    position: absolute;
+}
 @import './mixins';
 @import './survey';
-@import '../src/pages/Afan/afan';
+@import '../scss/person';
