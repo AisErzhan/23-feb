@@ -73,6 +73,7 @@
   text-align: center;
 }
 .person__description {
+  padding: 15px;
   background-color: #ff5e1e;
   color: #fff;
   max-width: 300px;
@@ -81,6 +82,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  border-radius: 20px;
 }
 .person__photo {
   display: flex;
@@ -91,11 +93,11 @@
   height: 300px;
 }
 .person__title {
-  color: #ff5e1e;
+  color: #fff;
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
-  line-height: 64px;
+  line-height: 65px;
 }
 .person__name {
   color: #ff5e1e;
