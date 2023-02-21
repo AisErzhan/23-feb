@@ -11,6 +11,13 @@
   height: 100vh;
 }
 
+header, footer {
+  position: absolute;
+}
+
+.survey {
+  padding: 30px 0 100px;
+}
 .survey #myVideo {
   position: fixed;
   right: 0;
@@ -30,7 +37,6 @@
 .survey .box {
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
   height: 100vh;
   text-align: center;
   text-transform: uppercase;
@@ -68,29 +74,29 @@
 }
 
 .person {
-  padding: 40px 50px 50px 50px;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 150px;
   background-color: black;
   text-align: center;
 }
 .person__description {
-  padding: 15px;
+  padding: 15px 10px;
   background-color: #ff5e1e;
   color: #fff;
-  max-width: 300px;
+  max-width: 380px;
   text-align: center;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 25px;
   border-radius: 20px;
+  margin-bottom: 20px;
 }
 .person__photo {
   display: flex;
   justify-content: center;
-}
-.person__photo-img {
-  width: 400px;
-  height: 300px;
+  margin-bottom: 20px;
 }
 .person__title {
   color: #fff;
